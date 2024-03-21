@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<conio.h>
+#define pi 3.14
+
+main()
+ {
+	int area,width,height;
+	clrscr();
+	printf("enter the width of rectangle=%d\n");
+	scanf("%d",&width);
+	printf("enter the height of rectangle=%d\n");
+	scanf("%d",&height);
+	area=width*height;
+	getch();
+ }
